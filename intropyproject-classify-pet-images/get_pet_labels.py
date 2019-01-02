@@ -51,7 +51,7 @@ def get_pet_labels(image_dir):
          file_name = file.split('.')[0]
          name_part = file_name.split('_')
          dog_name = ' '.join(name_part[:-1]).lower()
-         results_dic[file] = dog_name
+         results_dic[file] = [dog_name]
          
 
 

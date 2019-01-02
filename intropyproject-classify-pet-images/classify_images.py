@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 # */AIPND-revision/intropyproject-classify-pet-images/classify_images.py
 #                                                                             
-# PROGRAMMER: 
+# PROGRAMMER: Michael Albert
 # DATE CREATED:                                 
 # REVISED DATE: 
 # PURPOSE: Create a function classify_images that uses the classifier function 
@@ -22,6 +22,7 @@
 ##
 # Imports classifier function for using CNN to classify images 
 from classifier import classifier 
+import os
 
 # TODO 3: Define classify_images function below, specifically replace the None
 #       below by the function definition of the classify_images function. 
@@ -65,4 +66,20 @@ def classify_images(images_dir, results_dic, model):
      Returns:
            None - results_dic is mutable data type so no return needed.         
     """
+    cwd = os.getcwd()
+    path = os.path.join(cwd, images_dir)
+
+    for filename in results_dic: 
+      relative_file_name = "{}/{}".format(path, filename)
+
+      image_classification = classifier(relative_file_name, model).lower().strip()
+
+      breed_data = results_dic[filename]
+      image_real_breed = breed_data[0]
+
+      matching_value = image_real_breed in image_classification
+
+      breed_data.append(image_classification)
+      breed_data.append(matching_value)
+
     None 
