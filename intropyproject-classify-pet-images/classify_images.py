@@ -77,9 +77,7 @@ def classify_images(images_dir, results_dic, model):
       breed_data = results_dic[filename]
       image_real_breed = breed_data[0]
 
-      matching_value = image_real_breed in image_classification
+      matching_value = 1 if image_real_breed in image_classification else 0
 
       breed_data.append(image_classification)
-      breed_data.append(matching_value)
-
-    None 
+      breed_data.append(matching_value) 

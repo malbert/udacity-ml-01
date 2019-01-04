@@ -61,6 +61,17 @@ def print_results(results_dic, results_stats_dic, model,
                               False doesn't print anything(default) (bool) 
     Returns:
            None - simply printing results.
-    """    
-    None
-                
+    """ 
+
+    print("N Images: {}\t".format(results_stats_dic['n_images']))   
+    print("N Dog Imagess: {}\t".format(results_stats_dic['n_dogs_img']))
+    print("N NotDog Images: {}\t\n".format(results_stats_dic['n_notdogs_img']))  
+    
+     
+    print("Pct Corr dog: {}\t".format(results_stats_dic['pct_correct_dogs'])) 
+    print("Pct Corr NOTdog: {}\t".format(results_stats_dic['pct_correct_notdogs'])) 
+    print("Pct Corr Breed: {}\t\n".format(results_stats_dic['pct_correct_breed'])) 
+
+    if print_incorrect_dogs:
+        for key in results_dic:
+            data = results_dic[key]
