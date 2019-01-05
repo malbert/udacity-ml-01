@@ -70,8 +70,8 @@ def adjust_results4_isadog(results_dic, dogfile):
 
     dog_labels = []
     with open(dogfile) as f:
-      dog_labels = f.read()
-
+      for line in f:
+        dog_labels.append(line.rstrip())
 
     for key in results_dic:
       data = results_dic[key]
@@ -80,7 +80,8 @@ def adjust_results4_isadog(results_dic, dogfile):
       match = data[2]
 
       is_a_dog = 1 if real_label in dog_labels else 0
-      is_classified_as_dog = 1 if any(classifier_label in dog_labels for classifier_label in classifier_labels) else 0
+      is_classified_as_dog = 1 if any(classifier_label.strip() in dog_labels for classifier_label in classifier_labels.split(',')) else 0
+    
 
       data.append(is_a_dog)
       data.append(is_classified_as_dog)

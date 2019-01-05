@@ -72,6 +72,32 @@ def print_results(results_dic, results_stats_dic, model,
     print("Pct Corr NOTdog: {}\t".format(results_stats_dic['pct_correct_notdogs'])) 
     print("Pct Corr Breed: {}\t\n".format(results_stats_dic['pct_correct_breed'])) 
 
-    if print_incorrect_dogs:
-        for key in results_dic:
-            data = results_dic[key]
+    misclassified_dogs = []
+    misclassified_breeds = []
+
+    for key in results_dic:
+        data = results_dic[key]
+        if sum(data[3:]) == 1:
+                print("mis dog: {}".format(data))
+                misclassified_dogs.append(data) 
+        if sum(data[3:]) == 2 and data[2] == 0:
+                print("mis breed: {}".format(data))
+                misclassified_breeds.append(data)
+                
+
+    as_misclassified_dogs = results_stats_dic['n_correct_dogs'] + results_stats_dic['n_correct_notdogs'] != results_stats_dic['n_images']
+    print(results_stats_dic['n_correct_dogs'])
+    print(results_stats_dic['n_correct_notdogs'])
+    print(results_stats_dic['n_images'])
+
+    if print_incorrect_dogs and as_misclassified_dogs:
+        print("Some dogs are misclassified")
+        for dog_data in misclassified_dogs:
+                print("{} / {}".format(dog_data[0], dog_data[1]))
+       
+
+    as_misclassified_breeds = results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_breed']
+    if print_incorrect_breed and as_misclassified_breeds:
+        print("Some dog breeds are misclassified")
+        for dog_data in misclassified_breeds:
+                print("{} / {}".format(dog_data[0], dog_data[1]))
