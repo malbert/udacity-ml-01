@@ -222,3 +222,6 @@ walker hound
 wirehaired pointing griffon
 xoloitzcuintli
 dog
+english mastiff
+irish wolfhound
+saarloos wolfdog
