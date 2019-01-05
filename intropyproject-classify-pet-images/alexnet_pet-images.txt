@@ -150,7 +150,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                     cat_02.jpg: 
 Real:                        cat   Classifier:                 tiger cat, cat  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
           Great_dane_05320.jpg: 
 Real:                 great dane   Classifier:                     great dane  
@@ -162,7 +162,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                     cat_07.jpg: 
 Real:                        cat   Classifier:              egyptian cat, cat  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
       Great_pyrenees_05435.jpg: 
 Real:             great pyrenees   Classifier:                 great pyrenees  
@@ -190,11 +190,11 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                 Rabbit_002.jpg: 
 Real:                     rabbit   Classifier: wood rabbit, cottontail, cottontail rabbit, rabbit  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
              polar_bear_04.jpg: 
 Real:                 polar bear   Classifier: ice bear, polar bear, ursus maritimus, thalarctos maritimus  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
               Poodle_07956.jpg: 
 Real:                     poodle   Classifier:        standard poodle, poodle  
@@ -202,11 +202,11 @@ PetLabelDog: 1  ClassLabelDog: 1
 
            fox_squirrel_01.jpg: 
 Real:               fox squirrel   Classifier: fox squirrel, eastern fox squirrel, sciurus niger  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
                  skunk_029.jpg: 
 Real:                      skunk   Classifier:     skunk, polecat, wood pussy  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
       Boston_terrier_02303.jpg: 
 Real:             boston terrier   Classifier:    boston bull, boston terrier  
@@ -268,11 +268,11 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                     cat_01.jpg: 
 Real:                        cat   Classifier: african hunting dog, hyena dog, cape hunting dog, lycaon pictus  
-PetLabelDog: 1  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
                   gecko_02.jpg: 
 Real:                      gecko   Classifier:               alligator lizard  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
               Beagle_01170.jpg: 
 Real:                     beagle   Classifier:  walker hound, walker foxhound  
@@ -288,7 +288,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
                   gecko_80.jpg: 
 Real:                      gecko   Classifier:           tree frog, tree-frog  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
     Golden_retriever_05182.jpg: 
 Real:           golden retriever   Classifier:                tibetan mastiff  
@@ -296,7 +296,7 @@ PetLabelDog: 1  ClassLabelDog: 1
 
        great_horned_owl_02.jpg: 
 Real:           great horned owl   Classifier: ruffed grouse, partridge, bonasa umbellus  
-PetLabelDog: 0  ClassLabelDog: 1
+PetLabelDog: 0  ClassLabelDog: 0
 
       Great_pyrenees_05367.jpg: 
 Real:             great pyrenees   Classifier:                         kuvasz  
@@ -309,23 +309,21 @@ PetLabelDog: 1  ClassLabelDog: 1
 # Total Images 40 # Matches: 30 # NOT Matches: 10
 
  ** Statistics from calculates_results_stats() function:
-N Images: 40  N Dog Images: 33  N NotDog Images:  7 
-Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  78.8
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 
  ** Check Statistics - calculated from this function as a check:
-N Images: 40  N Dog Images: 33  N NotDog Images:  7 
-Pct Corr dog: 100.0 Pct Corr NOTdog:   0.0  Pct Corr Breed:  78.8
+N Images: 40  N Dog Images: 30  N NotDog Images: 10 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  80.0
 N Images: 40	
-N Dog Imagess: 33	
-N NotDog Images: 7	
+N Dog Imagess: 30	
+N NotDog Images: 10	
 
 Pct Corr dog: 100.0	
-Pct Corr NOTdog: 0.0	
-Pct Corr Breed: 78.78787878787878	
+Pct Corr NOTdog: 100.0	
+Pct Corr Breed: 80.0	
 
-Some dogs are misclassified
 Some dog breeds are misclassified
-cat / african hunting dog, hyena dog, cape hunting dog, lycaon pictus
 beagle / walker hound, walker foxhound
 boston terrier / basenji
 beagle / english foxhound

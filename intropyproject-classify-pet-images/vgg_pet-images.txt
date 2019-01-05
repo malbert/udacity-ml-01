@@ -141,86 +141,6 @@ Real:           great horned owl   Classifier: ruffed grouse, partridge, bonasa 
 Real:             great pyrenees   Classifier:                         kuvasz
 
 # Total Images 40 # Matches: 35 # NOT Matches: 5
-class labels: lynx
-is_classified_as_dog: 0
-class labels: standard poodle, poodle
-is_classified_as_dog: 1
-class labels: tabby, tabby cat, cat
-is_classified_as_dog: 0
-class labels: great dane
-is_classified_as_dog: 1
-class labels: dalmatian, coach dog, carriage dog
-is_classified_as_dog: 1
-class labels: banded gecko, gecko
-is_classified_as_dog: 0
-class labels: egyptian cat, cat
-is_classified_as_dog: 0
-class labels: great pyrenees
-is_classified_as_dog: 1
-class labels: german shepherd, german shepherd dog, german police dog, alsatian
-is_classified_as_dog: 1
-class labels: german shepherd, german shepherd dog, german police dog, alsatian
-is_classified_as_dog: 1
-class labels: collie
-is_classified_as_dog: 1
-class labels: saint bernard, st bernard
-is_classified_as_dog: 1
-class labels: dalmatian, coach dog, carriage dog
-is_classified_as_dog: 1
-class labels: wood rabbit, cottontail, cottontail rabbit, rabbit
-is_classified_as_dog: 0
-class labels: ice bear, polar bear, ursus maritimus, thalarctos maritimus
-is_classified_as_dog: 0
-class labels: standard poodle, poodle
-is_classified_as_dog: 1
-class labels: fox squirrel, eastern fox squirrel, sciurus niger
-is_classified_as_dog: 0
-class labels: walker hound, walker foxhound
-is_classified_as_dog: 1
-class labels: boston bull, boston terrier
-is_classified_as_dog: 1
-class labels: skunk, polecat, wood pussy
-is_classified_as_dog: 0
-class labels: boston bull, boston terrier
-is_classified_as_dog: 1
-class labels: miniature schnauzer
-is_classified_as_dog: 1
-class labels: beagle
-is_classified_as_dog: 1
-class labels: basenji
-is_classified_as_dog: 1
-class labels: tailed frog, bell toad, ribbed toad, tailed toad, ascaphus trui
-is_classified_as_dog: 0
-class labels: dalmatian, coach dog, carriage dog
-is_classified_as_dog: 1
-class labels: boxer
-is_classified_as_dog: 1
-class labels: basenji
-is_classified_as_dog: 1
-class labels: boston bull, boston terrier
-is_classified_as_dog: 1
-class labels: golden retriever
-is_classified_as_dog: 1
-class labels: golden retriever
-is_classified_as_dog: 1
-class labels: ruffed grouse, partridge, bonasa umbellus
-is_classified_as_dog: 0
-class labels: saint bernard, st bernard
-is_classified_as_dog: 1
-class labels: golden retriever
-is_classified_as_dog: 1
-class labels: beagle
-is_classified_as_dog: 1
-class labels: kuvasz
-is_classified_as_dog: 1
-class labels: german shorthaired pointer
-is_classified_as_dog: 1
-class labels: cocker spaniel, english cocker spaniel, cocker
-is_classified_as_dog: 1
-class labels: golden retriever
-is_classified_as_dog: 1
-class labels: basset, basset hound
-is_classified_as_dog: 1
 
      MATCH:
 
@@ -403,13 +323,8 @@ Pct Corr dog: 100.0
 Pct Corr NOTdog: 100.0	
 Pct Corr Breed: 93.33333333333333	
 
-mis breed: ['beagle', 'walker hound, walker foxhound', 0, 1, 1]
-mis breed: ['great pyrenees', 'kuvasz', 0, 1, 1]
-30
-10
-40
 Some dog breeds are misclassified
 beagle / walker hound, walker foxhound
 great pyrenees / kuvasz
 
-** Total Elapsed Runtime: 0:0:19
+** Total Elapsed Runtime: 0:0:23

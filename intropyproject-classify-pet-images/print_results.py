@@ -64,7 +64,7 @@ def print_results(results_dic, results_stats_dic, model,
     """ 
 
     print("N Images: {}\t".format(results_stats_dic['n_images']))   
-    print("N Dog Imagess: {}\t".format(results_stats_dic['n_dogs_img']))
+    print("N Dog Images: {}\t".format(results_stats_dic['n_dogs_img']))
     print("N NotDog Images: {}\t\n".format(results_stats_dic['n_notdogs_img']))  
     
      
@@ -78,10 +78,8 @@ def print_results(results_dic, results_stats_dic, model,
     for key in results_dic:
         data = results_dic[key]
         if data[3] == 1:
-                print("mis dog: {}".format(data))
                 misclassified_dogs.append(data) 
         if sum(data[3:]) == 2 and data[2] == 0:
-                print("mis breed: {}".format(data))
                 misclassified_breeds.append(data)
                 
 
