@@ -77,7 +77,7 @@ def print_results(results_dic, results_stats_dic, model,
 
     for key in results_dic:
         data = results_dic[key]
-        if data[3] == 1:
+        if sum(data[3:]) == 1:
                 misclassified_dogs.append(data) 
         if sum(data[3:]) == 2 and data[2] == 0:
                 misclassified_breeds.append(data)
@@ -88,7 +88,7 @@ def print_results(results_dic, results_stats_dic, model,
     if print_incorrect_dogs and as_misclassified_dogs:
         print("Some dogs are misclassified")
         for dog_data in misclassified_dogs:
-                print("{} / {}".format(dog_data[0], dog_data[1]))
+                print("{}".format(dog_data[0]))
        
 
     as_misclassified_breeds = results_stats_dic['n_correct_dogs'] != results_stats_dic['n_correct_breed']

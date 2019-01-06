@@ -3,34 +3,58 @@ Command Line Arguments:
     arch = alexnet 
  dogfile = dognames.txt
 
-Pet Image Label Dictionary has 5 key-value pairs.
-Below are 5 of them:
+Pet Image Label Dictionary has 6 key-value pairs.
+Below are 6 of them:
  1 key:                     Parrot.jpg  label:                           
- 2 key:         Saarloos_wolfdog_1.jpg  label:           saarloos wolfdog
- 3 key:          irish_wolfhound_3.jpg  label:            irish wolfhound
- 4 key:         english_mastiff_1.jpeg  label:            english mastiff
- 5 key:                     guitar.jpg  label:                           
+ 2 key:                 beagle_01.jpeg  label:                     beagle
+ 3 key:     labrador_retriever_01.jpeg  label:         labrador retriever
+ 4 key:               doberman_01.jpeg  label:                   doberman
+ 5 key:            bull_mastiff_1.jpeg  label:               bull mastiff
+ 6 key:                  guitar_01.jpg  label:                     guitar
 
      MATCH:
 
                     Parrot.jpg: 
 Real:                              Classifier:                          macaw
 
-                    guitar.jpg: 
-Real:                              Classifier:                electric guitar
+           bull_mastiff_1.jpeg: 
+Real:               bull mastiff   Classifier:                   bull mastiff
+
+                 guitar_01.jpg: 
+Real:                     guitar   Classifier:                electric guitar
 
  NOT A MATCH:
 
-        Saarloos_wolfdog_1.jpg: 
-Real:           saarloos wolfdog   Classifier: timber wolf, grey wolf, gray wolf, canis lupus
+                beagle_01.jpeg: 
+Real:                     beagle   Classifier:               english foxhound
 
-         irish_wolfhound_3.jpg: 
-Real:            irish wolfhound   Classifier:  scottish deerhound, deerhound
+    labrador_retriever_01.jpeg: 
+Real:         labrador retriever   Classifier:          saluki, gazelle hound
 
-        english_mastiff_1.jpeg: 
-Real:            english mastiff   Classifier:                   bull mastiff
+              doberman_01.jpeg: 
+Real:                   doberman   Classifier:                    toy terrier
 
-# Total Images 5 # Matches: 2 # NOT Matches: 3
+# Total Images 6 # Matches: 3 # NOT Matches: 3
+[<map object at 0x1255e6d30>, <map object at 0x123950b70>, <map object at 0x123950240>, <map object at 0x1239502b0>, <map object at 0x12395c278>, <map object at 0x12395c358>, <map object at 0x12395c6d8>, <map object at 0x12395c2e8>, <map object at 0x12395ce80>, <map object at 0x12395cef0>, <map object at 0x12395cf98>, <map object at 0x12395d080>, <map object at 0x12395d0f0>, <map object at 0x12395d160>, <map object at 0x12395d1d0>, <map object at 0x12395d240>, <map object at 0x12395d2b0>, <map object at 0x12395d320>, <map object at 0x12395d3c8>, <map object at 0x12395d438>, <map object at 0x12395d4a8>, <map object at 0x12395d518>, <map object at 0x12395d588>, <map object at 0x12395d5f8>, <map object at 0x12395d668>, <map object at 0x12395d710>, <map object at 0x12395d780>, <map object at 0x12395d7f0>, <map object at 0x12395d860>, <map object at 0x12395d8d0>, <map object at 0x12395d940>, <map object at 0x12395d9b0>, <map object at 0x12395da20>, <map object at 0x12395da90>, <map object at 0x12395db00>, <map object at 0x12395db70>, <map object at 0x12395dbe0>, <map object at 0x12395dc50>, <map object at 0x12395dcc0>, <map object at 0x12395dd30>, <map object at 0x12395dda0>, <map object at 0x12395de48>, <map object at 0x12395deb8>, <map object at 0x12395df28>, <map object at 0x12395df98>, <map object at 0x123962048>, <map object at 0x1239620b8>, <map object at 0x123962128>, <map object at 0x123962198>, <map object at 0x123962208>, <map object at 0x123962278>, <map object at 0x1239622e8>, <map object at 0x123962358>, <map object at 0x123962400>, <map object at 0x123962470>, <map object at 0x1239624e0>, <map object at 0x123962550>, <map object at 0x1239625c0>, <map object at 0x123962630>, <map object at 0x1239626a0>, <map object at 0x123962748>, <map object at 0x1239627b8>, <map object at 0x123962828>, <map object at 0x123962898>, <map object at 0x123962908>, <map object at 0x1239629b0>, <map object at 0x123962a20>, <map object at 0x123962a90>, <map object at 0x123962b00>, <map object at 0x123962b70>, <map object at 0x123962be0>, <map object at 0x123962c88>, <map object at 0x123962cf8>, <map object at 0x123962d68>, <map object at 0x123962dd8>, <map object at 0x123962e80>, <map object at 0x123962f28>, <map object at 0x123962f98>, <map object at 0x123966048>, <map object at 0x1239660b8>, <map object at 0x123966160>, <map object at 0x1239661d0>, <map object at 0x123966240>, <map object at 0x1239662b0>, <map object at 0x123966320>, <map object at 0x123966390>, <map object at 0x123966400>, <map object at 0x123966470>, <map object at 0x1239664e0>, <map object at 0x123966550>, <map object at 0x1239665c0>, <map object at 0x123966668>, <map object at 0x1239666d8>, <map object at 0x123966748>, <map object at 0x1239667b8>, <map object at 0x123966828>, <map object at 0x123966898>, <map object at 0x123966940>, <map object at 0x1239669b0>, <map object at 0x123966a20>, <map object at 0x123966a90>, <map object at 0x123966b00>, <map object at 0x123966b70>, <map object at 0x123966c18>, <map object at 0x123966c88>, <map object at 0x123966cf8>, <map object at 0x123966d68>, <map object at 0x123966e10>, <map object at 0x123966e80>, <map object at 0x123966f28>, <map object at 0x123966f98>, <map object at 0x123969048>, <map object at 0x1239690f0>, <map object at 0x123969198>, <map object at 0x123969208>, <map object at 0x123969278>, <map object at 0x1239692e8>, <map object at 0x123969358>, <map object at 0x1239693c8>, <map object at 0x123969438>, <map object at 0x1239694a8>, <map object at 0x123969550>, <map object at 0x1239695c0>, <map object at 0x123969630>, <map object at 0x1239696a0>, <map object at 0x123969710>, <map object at 0x1239697b8>, <map object at 0x123969860>, <map object at 0x123969908>, <map object at 0x1239699b0>, <map object at 0x123969a58>, <map object at 0x123969b00>, <map object at 0x123969ba8>, <map object at 0x123969c50>, <map object at 0x123969cf8>, <map object at 0x123969da0>, <map object at 0x123969e48>, <map object at 0x123969ef0>, <map object at 0x123969f98>, <map object at 0x12396d080>, <map object at 0x12396d128>, <map object at 0x12396d208>, <map object at 0x12396d2b0>, <map object at 0x12396d358>, <map object at 0x12396d400>, <map object at 0x12396d4a8>, <map object at 0x12396d550>, <map object at 0x12396d5f8>, <map object at 0x12396d6a0>, <map object at 0x12396d748>, <map object at 0x12396d7f0>, <map object at 0x12396d898>, <map object at 0x12396d940>, <map object at 0x12396d9e8>, <map object at 0x12396da90>, <map object at 0x12396db38>, <map object at 0x12396dbe0>, <map object at 0x12396dc88>, <map object at 0x12396dd30>, <map object at 0x12396ddd8>, <map object at 0x12396deb8>, <map object at 0x12396df60>, <map object at 0x123971048>, <map object at 0x1239710f0>, <map object at 0x123971198>, <map object at 0x123971240>, <map object at 0x1239712e8>, <map object at 0x123971390>, <map object at 0x123971438>, <map object at 0x1239714e0>, <map object at 0x123971588>, <map object at 0x123971630>, <map object at 0x1239716d8>, <map object at 0x123971780>, <map object at 0x123971828>, <map object at 0x1239718d0>, <map object at 0x123971978>, <map object at 0x123971a20>, <map object at 0x123971ac8>, <map object at 0x123971b70>, <map object at 0x123971c18>, <map object at 0x123971cc0>, <map object at 0x123971d68>, <map object at 0x123971e10>, <map object at 0x123971eb8>, <map object at 0x123971f60>, <map object at 0x123974048>, <map object at 0x1239740f0>, <map object at 0x123974198>, <map object at 0x123974240>, <map object at 0x1239742e8>, <map object at 0x123974390>, <map object at 0x123974438>, <map object at 0x1239744e0>, <map object at 0x123974588>, <map object at 0x123974630>, <map object at 0x1239746d8>, <map object at 0x123974780>, <map object at 0x123974828>, <map object at 0x1239748d0>, <map object at 0x123974978>, <map object at 0x123974a20>, <map object at 0x123974ac8>, <map object at 0x123974ba8>, <map object at 0x123974c50>, <map object at 0x123974d30>, <map object at 0x123974dd8>, <map object at 0x123974eb8>, <map object at 0x123974f60>, <map object at 0x123e23080>, <map object at 0x123e23128>, <map object at 0x123e231d0>, <map object at 0x123e23278>, <map object at 0x123e23320>, <map object at 0x123e233c8>, <map object at 0x123e23470>, <map object at 0x123e23518>, <map object at 0x123e235c0>, <map object at 0x123e23668>, <map object at 0x123e23748>, <map object at 0x123e237f0>, <map object at 0x123e23898>, <map object at 0x123e23940>, <map object at 0x123e23a20>, <map object at 0x123e23ac8>]
+['chihuahua', 'japanese spaniel', 'maltese dog', 'maltese terrier', 'maltese', 'pekinese', 'pekingese', 'peke', 'shih-tzu', 'blenheim spaniel', 'papillon', 'toy terrier', 'rhodesian ridgeback', 'afghan hound', 'afghan', 'basset', 'basset hound', 'beagle', 'bloodhound', 'sleuthhound', 'bluetick', 'black-and-tan coonhound', 'walker hound', 'walker foxhound', 'english foxhound', 'redbone', 'borzoi', 'russian wolfhound', 'irish wolfhound', 'italian greyhound', 'whippet', 'ibizan hound', 'ibizan podenco', 'norwegian elkhound', 'elkhound', 'otterhound', 'otter hound', 'saluki', 'gazelle hound', 'scottish deerhound', 'deerhound', 'weimaraner', 'staffordshire bullterrier', 'staffordshire bull terrier', 'american staffordshire terrier', 'staffordshire terrier', 'american pit bull terrier', 'pit bull terrier', 'bedlington terrier', 'border terrier', 'kerry blue terrier', 'irish terrier', 'norfolk terrier', 'norwich terrier', 'yorkshire terrier', 'wire-haired fox terrier', 'lakeland terrier', 'sealyham terrier', 'sealyham', 'airedale', 'airedale terrier', 'cairn', 'cairn terrier', 'australian terrier', 'dandie dinmont', 'dandie dinmont terrier', 'boston bull', 'boston terrier', 'miniature schnauzer', 'giant schnauzer', 'standard schnauzer', 'schnauzer', 'scotch terrier', 'scottish terrier', 'scottie', 'tibetan terrier', 'chrysanthemum dog', 'silky terrier', 'sydney silky', 'soft-coated wheaten terrier', 'west highland white terrier', 'lhasa', 'lhasa apso', 'flat-coated retriever', 'curly-coated retriever', 'golden retriever', 'labrador retriever', 'chesapeake bay retriever', 'german shorthaired pointer', 'vizsla', 'hungarian pointer', 'english setter', 'irish setter', 'red setter', 'gordon setter', 'brittany spaniel', 'clumber', 'clumber spaniel', 'english springer', 'english springer spaniel', 'welsh springer spaniel', 'cocker spaniel', 'english cocker spaniel', 'cocker', 'sussex spaniel', 'irish water spaniel', 'kuvasz', 'schipperke', 'groenendael', 'malinois', 'briard', 'kelpie', 'komondor', 'old english sheepdog', 'bobtail', 'shetland sheepdog', 'shetland sheep dog', 'shetland', 'collie', 'border collie', 'bouvier des flandres', 'bouviers des flandres', 'rottweiler', 'german shepherd', 'german shepherd dog', 'german police dog', 'alsatian', 'doberman', 'doberman pinscher', 'miniature pinscher', 'greater swiss mountain dog', 'bernese mountain dog', 'appenzeller', 'entlebucher', 'boxer', 'bull mastiff', 'tibetan mastiff', 'french bulldog', 'great dane', 'saint bernard', 'st bernard', 'eskimo dog', 'husky', 'malamute', 'malemute', 'alaskan malamute', 'siberian husky', 'dalmatian', 'coach dog', 'carriage dog', 'affenpinscher', 'monkey pinscher', 'monkey dog', 'basenji', 'pug', 'pug-dog', 'leonberg', 'newfoundland', 'newfoundland dog', 'great pyrenees', 'samoyed', 'samoyede', 'pomeranian', 'chow', 'chow chow', 'keeshond', 'brabancon griffon', 'pembroke', 'pembroke welsh corgi', 'corgi', 'cardigan', 'cardigan welsh corgi', 'corgi', 'toy poodle', 'miniature poodle', 'standard poodle', 'poodle', 'mexican hairless', 'affenpinscher', 'afghan hound', 'airedale terrier', 'akita', 'alaskan malamute', 'american eskimo dog', 'american foxhound', 'american staffordshire terrier', 'american water spaniel', 'anatolian shepherd dog', 'australian cattle dog', 'australian shepherd', 'basset hound', 'bearded collie', 'beauceron', 'belgian malinois', 'belgian sheepdog', 'belgian tervuren', 'bichon frise', 'black and tan coonhound', 'black russian terrier', 'bloodhound', 'bluetick coonhound', 'borzoi', 'boston terrier', 'bouvier des flandres', 'boykin spaniel', 'brittany', 'brussels griffon', 'bull terrier', 'bulldog', 'bullmastiff', 'cairn terrier', 'canaan dog', 'cane corso', 'cardigan welsh corgi', 'cavalier king charles spaniel', 'chinese crested', 'chinese shar-pei', 'chow chow', 'clumber spaniel', 'cocker spaniel', 'corgi', 'dachshund', 'dalmatian', 'dandie dinmont terrier', 'deerhound', 'doberman pinscher', 'dogue de bordeaux', 'english cocker spaniel', 'english springer spaniel', 'english toy spaniel', 'entlebucher mountain dog', 'field spaniel', 'finnish spitz', 'german pinscher', 'german shepherd dog', 'german wirehaired pointer', 'glen of imaal terrier', 'greyhound', 'havanese', 'ibizan hound', 'icelandic sheepdog', 'irish red and white setter', 'irish setter', 'japanese chin', 'leonberger', 'lhasa apso', 'lowchen', 'maltese', 'manchester terrier', 'mastiff', 'neapolitan mastiff', 'newfoundland', 'norwegian buhund', 'norwegian elkhound', 'norwegian lundehund', 'nova scotia duck tolling retriever', 'old english sheepdog', 'otterhound', 'parson russell terrier', 'pekingese', 'pembroke welsh corgi', 'petit basset griffon vendeen', 'pharaoh hound', 'plott', 'pointer', 'poodle', 'portuguese water dog', 'pug', 'saint bernard', 'saluki', 'samoyed', 'schnauzer', 'scottish terrier', 'sealyham terrier', 'shetland sheepdog', 'silky terrier', 'smooth fox terrier', 'staffordshire bull terrier', 'tibetan terrier', 'vizsla', 'walker hound', 'wirehaired pointing griffon', 'xoloitzcuintli', 'dog', 'english mastiff']
+------
+
+0
+------
+beagle
+1
+------
+labrador retriever
+1
+------
+doberman
+1
+------
+bull mastiff
+1
+------
+guitar
+0
 
      MATCH:
 
@@ -38,47 +62,48 @@ Real:            english mastiff   Classifier:                   bull mastiff
 Real:                              Classifier:                          macaw  
 PetLabelDog: 0  ClassLabelDog: 0
 
-                    guitar.jpg: 
-Real:                              Classifier:                electric guitar  
+           bull_mastiff_1.jpeg: 
+Real:               bull mastiff   Classifier:                   bull mastiff  
+PetLabelDog: 1  ClassLabelDog: 1
+
+                 guitar_01.jpg: 
+Real:                     guitar   Classifier:                electric guitar  
 PetLabelDog: 0  ClassLabelDog: 0
 
  NOT A MATCH:
 
-        Saarloos_wolfdog_1.jpg: 
-Real:           saarloos wolfdog   Classifier: timber wolf, grey wolf, gray wolf, canis lupus  
-PetLabelDog: 1  ClassLabelDog: 0
-
-         irish_wolfhound_3.jpg: 
-Real:            irish wolfhound   Classifier:  scottish deerhound, deerhound  
+                beagle_01.jpeg: 
+Real:                     beagle   Classifier:               english foxhound  
 PetLabelDog: 1  ClassLabelDog: 1
 
-        english_mastiff_1.jpeg: 
-Real:            english mastiff   Classifier:                   bull mastiff  
+    labrador_retriever_01.jpeg: 
+Real:         labrador retriever   Classifier:          saluki, gazelle hound  
 PetLabelDog: 1  ClassLabelDog: 1
 
-# Total Images 5 # Matches: 2 # NOT Matches: 3
+              doberman_01.jpeg: 
+Real:                   doberman   Classifier:                    toy terrier  
+PetLabelDog: 1  ClassLabelDog: 1
+
+# Total Images 6 # Matches: 3 # NOT Matches: 3
 
  ** Statistics from calculates_results_stats() function:
-N Images:  5  N Dog Images:  3  N NotDog Images:  2 
-Pct Corr dog:  66.7 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
+N Images:  6  N Dog Images:  4  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  25.0
 
  ** Check Statistics - calculated from this function as a check:
-N Images:  5  N Dog Images:  3  N NotDog Images:  2 
-Pct Corr dog:  66.7 Pct Corr NOTdog: 100.0  Pct Corr Breed:   0.0
-N Images: 5	
-N Dog Images: 3	
+N Images:  6  N Dog Images:  4  N NotDog Images:  2 
+Pct Corr dog: 100.0 Pct Corr NOTdog: 100.0  Pct Corr Breed:  25.0
+N Images: 6	
+N Dog Images: 4	
 N NotDog Images: 2	
 
-Pct Corr dog: 66.66666666666666	
+Pct Corr dog: 100.0	
 Pct Corr NOTdog: 100.0	
-Pct Corr Breed: 0.0	
+Pct Corr Breed: 25.0	
 
-Some dogs are misclassified
-saarloos wolfdog / timber wolf, grey wolf, gray wolf, canis lupus
-irish wolfhound / scottish deerhound, deerhound
-english mastiff / bull mastiff
 Some dog breeds are misclassified
-irish wolfhound / scottish deerhound, deerhound
-english mastiff / bull mastiff
+beagle / english foxhound
+labrador retriever / saluki, gazelle hound
+doberman / toy terrier
 
 ** Total Elapsed Runtime: 0:0:0

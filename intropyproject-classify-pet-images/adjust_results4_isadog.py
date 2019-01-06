@@ -68,10 +68,14 @@ def adjust_results4_isadog(results_dic, dogfile):
            None - results_dic is mutable data type so no return needed.
     """   
 
-    dog_labels = []
+    dog_labels_tmp = []
     with open(dogfile) as f:
       for line in f:
-        dog_labels.append(line.rstrip())
+        labels_in_line = line.split(',')
+        cleaned_labels_in_line = map(lambda label: label.strip(), labels_in_line)
+        dog_labels_tmp.append(cleaned_labels_in_line)
+
+    dog_labels = [item for sublist in dog_labels_tmp for item in sublist]
 
     for key in results_dic:
       data = results_dic[key]
