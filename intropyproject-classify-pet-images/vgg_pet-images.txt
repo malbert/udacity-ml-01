@@ -102,4 +102,4 @@ beagle / english foxhound
 doberman / toy terrier
 beagle / english foxhound
 
-** Total Elapsed Runtime: 0:0:5
+** Total Elapsed Runtime: 0:0:4
